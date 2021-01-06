@@ -1,12 +1,12 @@
 body{
     font-family: 'Roboto', sans-serif;
-    /* font-family: 'Bebas Neue', cursive; */
 }
 p{
     color: #3E3E3E;
 }
 h1,h2{
     color: #363958;
+    font-family: 'Bebas Neue', cursive;
 }
 span{
     color: #FF8367;
@@ -35,6 +35,12 @@ section{
 }
 .half-width h1{
     font-size: 60px;
+}
+.half-width h2{
+    font-size: 48px;
+}
+.half-width p{
+    padding-bottom: 20px;
 }
 .project h1{
     font-size: 48px;
@@ -67,6 +73,9 @@ section{
 .project-item-text p{
     color: #6C6C6C;
 }
+.inquiry{
+    background-color: #F8F9F9;
+}
 .inquiry-item{
     width: 80%;
     height: 400px;
@@ -89,5 +98,25 @@ section{
 .inquiry-item-button{
     width: 50%;
     float: right;
-    padding: 115px 0;
+    padding: 130px 0;
+}
+.footer{
+    text-align: center;
+    font-weight: bold;
+}
+.footer h4{
+    font-size: 24px;
+    color: #696871;
+}
+.footer h2{
+    font-size: 36px;
+}
+.footer-img{
+    width: 50px;
+    height: auto;
+    display: inline-block;
+    padding: 0 10px;
+}
+.footer-img img{
+    width: 100%;
 }
