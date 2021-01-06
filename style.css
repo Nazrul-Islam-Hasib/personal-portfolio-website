@@ -2,3 +2,92 @@ body{
     font-family: 'Roboto', sans-serif;
     /* font-family: 'Bebas Neue', cursive; */
 }
+p{
+    color: #3E3E3E;
+}
+h1,h2{
+    color: #363958;
+}
+span{
+    color: #FF8367;
+}
+.button{
+    text-decoration: none;
+    padding: 12px 50px;
+    border-radius: 5px;
+    background-color: #FF8063;
+    color: #fff;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 4%;
+}
+.half-width img{
+    width: 80%;
+    height: auto;
+}
+.half-width h1{
+    font-size: 60px;
+}
+.project h1{
+    font-size: 48px;
+    text-align: center;
+}
+.project{
+    background-color: #F8F9F9;
+}
+.project-item{
+    width: 30%;
+    float: left;
+    border-radius: 15px;
+    box-shadow: 0px 6.58px 19.74px 0px rgba(0,0,0,0.7);
+    margin: 15px;
+    background-color: #fff;
+}
+.project-item-img{
+    text-align: center;
+}
+.project-item-img img{
+    width: 80%;
+    margin: 15px;
+}
+.project-item-text{
+    padding: 0 15px;
+}
+.project-item-text h2{
+    font-size: 20px;
+}
+.project-item-text p{
+    color: #6C6C6C;
+}
+.inquiry-item{
+    width: 80%;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-image: url("images/img_bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+.inquiry-item-text{
+    width: 50%;
+    float: left;
+    padding: 50px 0;
+}
+.inquiry-item-text h2{
+    color: #fff;
+    font-size: 64px;
+}
+.inquiry-item-button{
+    width: 50%;
+    float: right;
+    padding: 115px 0;
+}
